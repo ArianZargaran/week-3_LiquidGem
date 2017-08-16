@@ -1,0 +1,259 @@
+/* line 1, main.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(0, 0, 0, 0.01); }
+
+/* line 5, main.scss */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* line 6, main.scss */
+.content-wrapper {
+  width: 94%;
+  margin: 0 auto; }
+
+/* line 9, main.scss */
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 5px;
+  border-bottom: 1px solid #000; }
+
+/* line 17, main.scss */
+.header__logo .header__logo-icon {
+  font-size: 24px;
+  color: #db87cb; }
+/* line 21, main.scss */
+.header__logo .header__logo--link {
+  font-family: 'Cookie', cursive;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 10px 12px; }
+
+/* line 30, main.scss */
+.header__navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  /* line 33, main.scss */
+  .header__navbar .header__navbar--link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 900;
+    padding: 10px 12px; }
+
+/* line 42, main.scss */
+.welcome {
+  text-align: center;
+  padding: 40px 0; }
+  /* line 45, main.scss */
+  .welcome .welcome__cite {
+    padding-bottom: 8px;
+    font-size: 24px;
+    letter-spacing: 1.5px; }
+    /* line 49, main.scss */
+    .welcome .welcome__cite span {
+      color: #db87cb; }
+  /* line 51, main.scss */
+  .welcome p {
+    padding-top: 8px; }
+
+/* line 56, main.scss */
+.main-picture {
+  border-radius: 10px;
+  height: 300px;
+  width: 100%; }
+
+/* line 63, main.scss */
+.me {
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  /* line 66, main.scss */
+  .me .about-me__box {
+    width: 49%;
+    margin-right: 1%; }
+    /* line 69, main.scss */
+    .me .about-me__box .about-me__title {
+      text-align: center;
+      font-family: 'Cookie', cursive;
+      font-size: 24px;
+      color: #db87cb; }
+    /* line 75, main.scss */
+    .me .about-me__box .about-me__paragraph {
+      padding: 10px 0;
+      line-height: 24px; }
+  /* line 80, main.scss */
+  .me .my-work__box {
+    width: 49%;
+    margin-left: 1%; }
+    /* line 83, main.scss */
+    .me .my-work__box .my-work__title {
+      font-family: 'Cookie', cursive;
+      font-size: 24px;
+      color: #db87cb;
+      text-align: center; }
+    /* line 89, main.scss */
+    .me .my-work__box .my-work__paragraph {
+      padding: 10px 0 0;
+      line-height: 24px; }
+
+/* line 97, main.scss */
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+/* line 103, main.scss */
+.gallery__box {
+  -ms-flex-preferred-size: 210px;
+      flex-basis: 210px;
+  height: 217px;
+  margin: 1%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0.5px 0.5px 10px 0.5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0.5px 0.5px 10px 0.5px rgba(0, 0, 0, 0.2); }
+  /* line 109, main.scss */
+  .gallery__box .gallery__img {
+    border-radius: 10px 10px 0 0; }
+  /* line 112, main.scss */
+  .gallery__box .gallery__box-heading {
+    padding: 5px 0 0 5px;
+    background: #fff; }
+    /* line 115, main.scss */
+    .gallery__box .gallery__box-heading .gallery__title {
+      padding: 5px 0;
+      font-size: 16px;
+      font-weight: 600; }
+    /* line 120, main.scss */
+    .gallery__box .gallery__box-heading .gallery__subtitle {
+      font-size: 16px;
+      color: #db87cb;
+      letter-spacing: -1px;
+      font-weight: 300; }
+
+/* line 129, main.scss */
+.sentence {
+  text-align: center; }
+  /* line 131, main.scss */
+  .sentence .sentence__paragraph {
+    padding: 40px 0;
+    font-family: 'Cookie', cursive;
+    font-size: 32px;
+    color: #db87cb; }
+
+/* line 139, main.scss */
+.footer {
+  padding: 50px;
+  background-color: #2d2d2d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+/* line 147, main.scss */
+.footer__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 30%; }
+  /* line 151, main.scss */
+  .footer__form label {
+    font-family: 'Cookie', cursive;
+    font-size: 30px;
+    color: #db87cb; }
+  /* line 156, main.scss */
+  .footer__form input {
+    margin: 5px 0;
+    -ms-flex-preferred-size: 25px;
+        flex-basis: 25px;
+    color: rgba(0, 0, 0, 0.01); }
+    /* line 160, main.scss */
+    .footer__form input::-webkit-input-placeholder {
+      font-size: 14px; }
+    .footer__form input:-ms-input-placeholder {
+      font-size: 14px; }
+    .footer__form input::placeholder {
+      font-size: 14px; }
+  /* line 164, main.scss */
+  .footer__form textarea {
+    margin: 5px 0;
+    -ms-flex-preferred-size: 100px;
+        flex-basis: 100px;
+    color: rgba(0, 0, 0, 0.01); }
+    /* line 168, main.scss */
+    .footer__form textarea::-webkit-input-placeholder {
+      font-size: 14px; }
+    .footer__form textarea:-ms-input-placeholder {
+      font-size: 14px; }
+    .footer__form textarea::placeholder {
+      font-size: 14px; }
+  /* line 172, main.scss */
+  .footer__form button {
+    color: #fff;
+    border: none;
+    background: none;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer; }
+
+/* line 182, main.scss */
+.footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: flex;
+      flex-wrap: flex;
+  min-width: 320px;
+  margin: 5% 0; }
+  /* line 189, main.scss */
+  .footer__social .footer__social--item {
+    text-decoration: none;
+    color: #2d2d2d;
+    display: block;
+    background-color: #db87cb;
+    height: 32px;
+    width: 32px;
+    border-radius: 100%; }
+    /* line 197, main.scss */
+    .footer__social .footer__social--item:nth-child(1) {
+      padding: 8px 9px; }
+    /* line 198, main.scss */
+    .footer__social .footer__social--item:nth-child(2) {
+      padding: 8px 11px; }
+    /* line 199, main.scss */
+    .footer__social .footer__social--item:nth-child(3) {
+      padding: 7px 9px; }
+    /* line 200, main.scss */
+    .footer__social .footer__social--item:nth-child(4) {
+      padding: 8px 7px; }
+
+/*# sourceMappingURL=main.css.map */
